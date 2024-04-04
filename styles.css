@@ -2,12 +2,24 @@
 body{
 	background-color: #f8f8f8;
 }
-.book-liberary{
-	background-color:#ffffff;
+.book{
+	margin-top: 10px;
+	width: 400px
 }
-p{
-	color:#777777
+.book-author{
+	color: #777777
 }
-button{
-	background-color:#2ecc71
+.price-block{
+	color: #2ecc71;
 }
+.book-title{
+	font-weight: bold;
+}
+ .book-library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px grey;
+  }
